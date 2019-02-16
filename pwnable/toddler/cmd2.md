@@ -1,4 +1,5 @@
 # cmd2
+slopey112 - 02/15/19
 
 This is an upgrade from its prequel, [cmd1](/pwnable/toddler/cmd1.md). Let's take a look at its source code first, which is given.
 
