@@ -15,7 +15,8 @@ The key word here was UPX. I had no idea what that was. After doing a little bit
 ```
 Decompress
 
-All UPX supported file formats can be unpacked using the -d switch, eg. upx -d yourfile.exe will uncompress the file you've just compressed.
+All UPX supported file formats can be unpacked using the -d switch, eg. upx -d yourfile.exe will 
+uncompress the file you've just compressed.
 ```
 
 I called `upx -d flag` and sure enough, the file was decompressed. Then, I went back to my original plan, and launched `gdb`. Here's my `main` disassembly:
