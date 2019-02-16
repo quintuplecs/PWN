@@ -1,4 +1,5 @@
 # flag
+slopey112 - 02/15/19
 
 We are given a binary and asked to pwn it. This problem was an especially interesting one. When I first downloaded the file, seeing that it was binary, knew, of course, the obvious solution: run `gdb`, and do normal reverse stuff.
 
