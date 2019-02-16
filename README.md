@@ -5,6 +5,7 @@ Below are solutions to various PWNing challenges.
 ## pwnable.kr
 
 #### Toddler's Bottle
-| Name                             | Solution Notes|
+| Name                             | Hint          |
 | :------------------------------: | :-----------: |
 | [cmd2](/pwnable/toddler/cmd2.md) | PATH variable |
+| [flag](/pwnable/toddler/flag.md) | UPX           |
