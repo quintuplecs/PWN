@@ -73,7 +73,7 @@ Let's call python on the server with these  things in mind. Also keep in mind th
 (python -c "print 'A'*52+'\xbe\xba\xfe\xca'"; cat) | nc pwnable.kr 9000
 ```
 
-Note the use of `cat` at the end. Since we're getting a shell, we pass `cat` to `stdin` so the shell does not get a null input. After that, we gain the root shell.
+The use of `cat` requires some explanation. If we just call `python -c "print 'A'*52+'\xbe\xba\xfe\xca'"`, nothing will happen. When I overflow the buffer, I make the keys match, and hence I get access to the shell. But here's the problem with that: I have no input. And so by the time the code finishes executing, the pipe to the shell will already be closed. Here's a neat trick though. If you go on the command line and call `cat` without any arguments, it simply redirects all input passed to it. And so, if I chain `cat` to the end of our payload, I can pass arbitrary root commands, and have that pipe open for as long as I want. 
 
 ```
 whoami
