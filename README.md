@@ -16,3 +16,4 @@ Below are solutions to various PWNing challenges.
 | Name                          | Solution Type |
 | :---------------------------: | :-----------: |
 | [bandit0](/bandit/bandit0.md) | SSH           |
+| [bandit1](/bandit/bandit1.md) | cat           |
