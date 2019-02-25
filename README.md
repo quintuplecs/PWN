@@ -11,6 +11,7 @@ Below are solutions to various PWNing challenges.
 | [flag](/pwnable/toddler/flag.md)         | UPX             |
 | [bof](/pwnable/toddler/bof.md)           | Buffer Overflow |
 | [passcode](/pwnable/toddler/passcode.md) | Buffer Overflow |
+| [lotto](/pwnable/toddler/lotto.md)       | Ad Hoc          |
 
 ## bandit
 | Name                          | Solution Type |
