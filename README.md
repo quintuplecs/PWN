@@ -1,4 +1,4 @@
-# PWN Write-ups
+# PWN
 
 Below are solutions to various PWNing challenges.
 
