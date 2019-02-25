@@ -17,3 +17,4 @@ Below are solutions to various PWNing challenges.
 | :---------------------------: | :-----------: |
 | [bandit0](/bandit/bandit0.md) | SSH           |
 | [bandit1](/bandit/bandit1.md) | cat           |
+| [bandit2](/bandit/bandit2.md) | cat           |
