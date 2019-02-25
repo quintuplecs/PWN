@@ -113,7 +113,7 @@ At the end of the day, the `lea` operation pushes the *address* of a variable, f
 ```
 This is the dump of the `login` function. Sure enough, when we allocate memory for the passcodes, at `<+24>` and `<+70>`, `mov` is called instead of `lea`. I'm jumping to the gun a little bit, let me back up on why I chose those addresses. We know that `ebp` is called when we're allocating space for local variables. I'm making a guess that those two lines are where `passcode1` and `passcode2` are allocated.
 
-Ok, so we have some idea of what went wrong. Now comes the exploitation. Let's break this down into three parts.
+Ok, so we have some idea of what went wrong. Now comes the exploitation. Let's break this down into four parts.
 - **How** can we overwrite the buffer?
 - **How much** should we overwrite by?
 - **Where** should we overwrite to?
