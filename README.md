@@ -19,3 +19,8 @@ Below are solutions to various PWNing challenges.
 | [bandit0](/bandit/bandit0.md) | SSH           |
 | [bandit1](/bandit/bandit1.md) | cat           |
 | [bandit2](/bandit/bandit2.md) | cat           |
+
+## behemoth
+| Name                                | Solution Type    |
+| :---------------------------------: | :--------------: |
+| [behemoth0](/behemoth/behemoth0.md) | Stack Inspection |
