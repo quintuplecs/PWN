@@ -12,6 +12,7 @@ Below are solutions to various PWNing challenges.
 | [bof](/pwnable/toddler/bof.md)           | Buffer Overflow |
 | [passcode](/pwnable/toddler/passcode.md) | Buffer Overflow |
 | [lotto](/pwnable/toddler/lotto.md)       | Ad Hoc          |
+| [blukat](/pwnable/toddler/blukat.md)     | Ad Hoc          |
 
 ## bandit
 | Name                          | Solution Type |
