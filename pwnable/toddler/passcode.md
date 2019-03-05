@@ -71,7 +71,7 @@ But there's an even more interesting mistake, one that we can use to our advanta
 
 At the end of the day, the `lea` operation pushes the *address* of a variable, function, or whatever the case may be. But `mov` simply copies the information. So in the compiled code, we'll most likely see `mov` instead of `lea`. This is also why we saw a segmentation fault. Let's call GDB to find out.
 
-```
+```assembly
 0x08048564 <+0>:	push   ebp
 0x08048565 <+1>:	mov    ebp,esp
 0x08048567 <+3>:	sub    esp,0x28
@@ -120,7 +120,7 @@ Ok, so we have some idea of what went wrong. Now comes the exploitation. Let's b
 - **What** should we overwrite?
 
 Let's start from the top. We know that the first passcode is stored starting at `[ebp-0x10]`. Is there anything that comes before? There sure is: the `welcome` function.
-```
+```assembly
 0x08048609 <+0>:	push   ebp
 0x0804860a <+1>:	mov    ebp,esp
 0x0804860c <+3>:	sub    esp,0x88
@@ -150,7 +150,7 @@ Let's start from the top. We know that the first passcode is stored starting at 
 Above is the dump of the `welcome` function. It seems that the best way to overwrite this buffer should be to abuse the `welcome` function.
 
 So how much should we overwrite by? Let's take a look at how much space is allocated for this operation. This line tells us all we need:
-```
+```assembly
 0x0804862f <+38>:	lea    edx,[ebp-0x70]
 ```
 The logic for knowing that this is the line that allocates memory for the char buffer follows the same logic as how the integers were allocated. Also, it seems that memory for the char buffer begins at `$ebp-0x70`. Remember where the first passcode was stored? Doing some math, we find that 0x70 - 0x10 gives us 96 bytes in between. So all we need to do is fill those 96 bytes with some padding.
@@ -158,7 +158,7 @@ The logic for knowing that this is the line that allocates memory for the char b
 But let's take a step back. What is our ultimate goal in overflowing the buffer? To redirect command flow, right? There's a golden opportunity for us to do so in this problem: we can bypass the password check altogether.
 
 Let's go back and take a look at the disassembly for `login`.
-```
+```assembly
 0x080485d7 <+115>:	mov    DWORD PTR [esp],0x80487a5
 0x080485de <+122>:	call   0x8048450 <puts@plt>
 0x080485e3 <+127>:	mov    DWORD PTR [esp],0x80487af

@@ -23,7 +23,7 @@ pacmanishighoncrack
 ```
 Amongst the list of strings, three stand out in particular. Is this challenge really that simple? After trying all three, it seems like `strings` was a trap; neither of the three work. Seems like we're just going to have to open up our trusty GDB.
 
-```
+```assembly
 0x080485b1 <+0>:	push   ebp
 0x080485b2 <+1>:	mov    ebp,esp
 0x080485b4 <+3>:	push   ebx
