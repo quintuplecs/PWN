@@ -26,6 +26,7 @@ Below are solutions to various PWNing challenges.
 | :---------------------------: | :-------------: |
 | [narnia0](/narnia/narnia0.md) | Buffer Overflow |
 | [narnia1](/narnia/narnia1.md) | Environment Var |
+| [narnia2](/narnia/narnia2.md) | ret2libc        |
 
 ## behemoth
 | Name                                | Solution Type    |
