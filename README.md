@@ -21,6 +21,11 @@ Below are solutions to various PWNing challenges.
 | [bandit1](/bandit/bandit1.md) | cat           |
 | [bandit2](/bandit/bandit2.md) | cat           |
 
+## narnia
+| Name                          | Solution Type   |
+| :---------------------------: | :-------------: |
+| [narnia0][/narnia/narnia0.md] | Buffer Overflow |
+
 ## behemoth
 | Name                                | Solution Type    |
 | :---------------------------------: | :--------------: |
