@@ -22,7 +22,7 @@ uncompress the file you've just compressed.
 
 I called `upx -d flag` and sure enough, the file was decompressed. Then, I went back to my original plan, and launched `gdb`. Here's my `main` disassembly:
 
-```
+```assembly
    0x0000000000401164 <+0>:     push   rbp
    0x0000000000401165 <+1>:     mov    rbp,rsp
    0x0000000000401168 <+4>:     sub    rsp,0x10
