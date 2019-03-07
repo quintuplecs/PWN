@@ -49,7 +49,7 @@ The code is very easy to understand. Essentially, we open up the file `password`
 Since we are getting our submission with the secure `fgets()`, there was no hope for a buffer overflow. And so the obvious solution was to look on the stack for the variable.
 
 Let's open up GDB and get cracking.
-```
+```assembly
 0x00000000004007fa <+0>:	push   rbp
 0x00000000004007fb <+1>:	mov    rbp,rsp
 0x00000000004007fe <+4>:	add    rsp,0xffffffffffffff80
