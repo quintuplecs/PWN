@@ -92,8 +92,8 @@ DESCRIPTION
        constant is fixed, and is suitable only for hiding strings.
 ```
 It's a simple XOR cipher. This explains why we couldn't see the password earlier; It was encrypted by `memfrob()`. However, if we carefully look at the code, this doesn't have to be a cryptography problem.
-```
-...assembly
+```assembly
+...
 0x0804860d <+92>:	lea    eax,[ebp-0x1c]
 0x08048610 <+95>:	push   eax
 0x08048611 <+96>:	call   0x804858b <memfrob>
