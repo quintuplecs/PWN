@@ -34,3 +34,4 @@ Below are solutions to various PWNing challenges.
 | Name                                | Solution Type    |
 | :---------------------------------: | :--------------: |
 | [behemoth0](/behemoth/behemoth0.md) | Stack Inspection |
+| [behemoth1](/behemoth/behemoth1.md) | ret2libc         |
