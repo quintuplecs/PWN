@@ -30,7 +30,7 @@ We notice straight of the bat that the argument passed to `func` will never chan
 
 Let's open up GDB and take a look at this. The only function of interest here is `func`, so we'll disassemble that.
 
-```
+```assembly
 0x0000062c <+0>:	push   ebp
 0x0000062d <+1>:	mov    ebp,esp
 0x0000062f <+3>:	sub    esp,0x48
@@ -61,7 +61,7 @@ The first interesting thing we see here is on `<+29>`, where `eax` is given `0x2
 
 However, we can't just overflow the buffer. Let's go down to `<+40>`.
 
-```
+```assembly
 0x00000654 <+40>:	cmp    DWORD PTR [ebp+0x8],0xcafebabe
 ```
 
