@@ -2,7 +2,7 @@
 
 Below are solutions to various PWNing challenges.
 
-## pwnable.kr
+## [pwnable.kr](https://pwnable.kr/)
 
 #### Toddler's Bottle
 | Name                                     | Solution Type   |
@@ -14,14 +14,14 @@ Below are solutions to various PWNing challenges.
 | [lotto](/pwnable/toddler/lotto.md)       | Ad Hoc          |
 | [blukat](/pwnable/toddler/blukat.md)     | Ad Hoc          |
 
-## bandit
+## [bandit](http://overthewire.org/wargames/bandit/)
 | Name                          | Solution Type |
 | :---------------------------: | :-----------: |
 | [bandit0](/bandit/bandit0.md) | SSH           |
 | [bandit1](/bandit/bandit1.md) | cat           |
 | [bandit2](/bandit/bandit2.md) | cat           |
 
-## narnia
+## [narnia](http://overthewire.org/wargames/narnia/)
 | Name                          | Solution Type   |
 | :---------------------------: | :-------------: |
 | [narnia0](/narnia/narnia0.md) | Buffer Overflow |
@@ -30,7 +30,7 @@ Below are solutions to various PWNing challenges.
 | [narnia3](/narnia/narnia3.md) | Buffer Overflow |
 | [narnia4](/narnia/narnia4.md) | ret2libc        |
 
-## behemoth
+## [behemoth](http://overthewire.org/wargames/behemoth/)
 | Name                                | Solution Type    |
 | :---------------------------------: | :--------------: |
 | [behemoth0](/behemoth/behemoth0.md) | Stack Inspection |
