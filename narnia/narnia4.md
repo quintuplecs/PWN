@@ -30,7 +30,7 @@ int main(int argc,char **argv){
 ```
 Okay, so we get a pointer to the environment variables and they are all overwritten, preventing us from hiding shell code inside the environment variable. However, there are two key observations: 1) Once again, there is no check for bounds on `argv[1]`; 2), the use of `return`.
 
-Given that the vulnerability is a buffer overflow vulnerability, we can simply do a ret2libc attack, just like we did in [narnia2](/narnia/narnia2).
+Given that the vulnerability is a buffer overflow vulnerability, we can simply do a ret2libc attack, just like we did in [narnia2](/narnia/narnia2.md).
 
 Let's first try to find the offset. After trying a few different values, I find that the offset is 260, +4 for the saved EBP address.
 ```
