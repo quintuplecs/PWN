@@ -38,8 +38,8 @@ Below are solutions to various PWNing challenges.
 | [behemoth2](/behemoth/behemoth2.md) | Env Variable     |
 
 ## picoctf
-| Name                                                 | Solution Type    |
-| :--------------------------------------------------: | :--------------: |
-| [buffer overflow 0](/picoctf/buffer\ overflow\ 0.md) | Buffer Overflow  |
-| [buffer overflow 1](/picoctf/buffer\ overflow\ 1.md) | Buffer Overflow  |
-| [leak-me](/picoctf/leak-me.md)                       | Buffer Overflow  |
+| Name                                              | Solution Type    |
+| :-----------------------------------------------: | :--------------: |
+| [buffer overflow 0](/picoctf/buffer-overflow0.md) | Buffer Overflow  |
+| [buffer overflow 1](/picoctf/buffer-overflow1.md) | Buffer Overflow  |
+| [leak-me](/picoctf/leak-me.md)                    | Buffer Overflow  |
