@@ -39,8 +39,8 @@ Below are solutions to various PWNing challenges.
 
 ## picoctf
 | Name                                               | Solution Type    |
-| :------------------------------------------- ----: | :--------------: |
-| [buffer overflow 0](/picoctf/buffer overflow 0.md) | Buffer Overflow  |
-| [buffer overflow 1](/picoctf/buffer overflow 1.md) | Buffer Overflow  |
+| :------------------------------------------------: | :--------------: |
+| [buffer overflow 0](/picoctf/buffer-overflow-0.md) | Buffer Overflow  |
+| [buffer overflow 1](/picoctf/buffer-overflow-1.md) | Buffer Overflow  |
 | [leak-me](/picoctf/leak-me.md)                     | Buffer Overflow  |
 | [shellcode](/picoctf/shellcode.md)                 | Shellcode        |

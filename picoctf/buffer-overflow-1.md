@@ -1,4 +1,4 @@
-# buffer overflow 2
+# buffer overflow 1
 
 When we take a look at the binary, we can see all it does is take a string and then returns.
 ```
