@@ -44,3 +44,4 @@ Below are solutions to various PWNing challenges.
 | [buffer overflow 1](/picoctf/buffer-overflow-1.md) | Buffer Overflow  |
 | [leak-me](/picoctf/leak-me.md)                     | Buffer Overflow  |
 | [shellcode](/picoctf/shellcode.md)                 | Shellcode        |
+| [buffer overflow 2](/picoctf/buffer-overflow-2.md) | Buffer Overflow  |
